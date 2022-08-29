@@ -47,3 +47,21 @@ img{
    height: auto;
    border: 1px solid black;
 }
+
+
+
+.downloadContainer
+.row
+{
+    border: 1px solid black;
+    margin-bottom: 2rem;
+    box-shadow: 1px 1px 3px;
+    padding: 0.5rem;
+}
+
+
+.downloadContainer
+.row
+a{
+    margin-right: 2rem;
+}
