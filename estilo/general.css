@@ -1,0 +1,49 @@
+.title
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.title 
+h3
+{
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.downloadContainer{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+
+.downloadContainer
+.down{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.downloadContainer
+.down
+.colum{
+    display: flex;
+    flex-direction: column;
+}
+
+.downloadContainer
+.down
+img{
+   width: 150px;
+   height: auto;
+   border: 1px solid black;
+}
