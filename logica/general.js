@@ -3,19 +3,27 @@ function leer(archivo){
     
     <div class="visorPDF" id="visorPDF">
         <button class="btnExit" onclick="Exit()"><ion-icon name="close-circle-outline"></ion-icon></button>
+        <div class="loading" id="load"></div>
         
         <iframe src="https://docs.google.com/viewer?srcid=${archivo}&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="100%"></iframe>
 
     </div>
 
     `;
+
+    setTimeout(()=>{
+
+        document.getElementById("load").remove();
+    },3000)
     
 }
 
 function Exit(){
     document.getElementById("visorPDF").remove();
-    alert("embebed?");
+    
 }
+
+
 
 /*
 copiar
