@@ -5,7 +5,7 @@ function leer(archivo){
         <button class="btnExit" onclick="Exit()"><ion-icon name="close-circle-outline"></ion-icon></button>
         
         
-        <iframe src="https://docs.google.com/viewer?srcid=1OEe5kHKB-olY1mjkpiyHfbi5aMZkVsrL&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="680px"></iframe>
+        <embed src="material/${archivo}.pdf" type="application/pdf" width="100%" height="100%" />
 
 
     </div>
@@ -16,7 +16,7 @@ function leer(archivo){
 
 function Exit(){
     document.getElementById("visorPDF").remove();
-    alert("funciona233333?");
+    alert("embebed?");
 }
 
 /*
