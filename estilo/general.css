@@ -29,7 +29,10 @@ h3
     background: orange ;
     padding: 1rem;
 }
-
+.container
+h2{
+    text-shadow: 1px 1px 1px white;
+}
 
 .downloadContainer{
     display: flex;
