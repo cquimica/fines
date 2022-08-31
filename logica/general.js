@@ -16,7 +16,7 @@ function leer(archivo){
 
 function Exit(){
     document.getElementById("visorPDF").remove();
-    alert("funcionaxxx?");
+    alert("funciona233333?");
 }
 
 /*
