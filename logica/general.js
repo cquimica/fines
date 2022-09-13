@@ -1,3 +1,6 @@
+
+
+
 function leer(archivo){
     document.getElementById("miBody").innerHTML+=`
     
